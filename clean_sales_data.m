@@ -36,7 +36,7 @@ parfor i = 1:45
     ind{i}=~ismember(data{i}.BUILDINGCLASSCATEGORY,filter);
 end
 toc
-save sales_data_temp
+%save sales_data_temp
 disp('clean data1 finished')
 %% clean data for data after 2012
 %
@@ -62,7 +62,7 @@ parfor i = 46:length(source_files)
     end
 end
 toc
-save sales_data_temp
+%save sales_data_temp
 disp('clean data2 finished')
 %% clear and combine
 for i=1:length(source_files)
@@ -70,12 +70,10 @@ for i=1:length(source_files)
 end
 cleandata=vertcat(data{:});
 cleandata(cleandata.SALEPRICE<1000,:)=[];
-save sales_data_temp
+%save sales_data_temp
 toc
 disp('cleandata finished')
 %% ouput files
 cleandata.SALEDATE.Format='defaultdate';
 writetable(cleandata,[dest_dir,'cleandata.xlsx'])
 disp('cleandata in ouput directory')
-
-
