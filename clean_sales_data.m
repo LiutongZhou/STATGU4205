@@ -34,17 +34,6 @@ parfor i = 1:45
         );
     % keep only 9 types of apartments that we are interested in
     ind{i}=~ismember(data{i}.BUILDINGCLASSCATEGORY,filter);
-    
-    %  keep name consistency
-    %     for j=1:3
-    %         ind2=ismember(...
-    %             data{i}.BUILDINGCLASSCATEGORY, ...
-    %             strcat(num2str(j,'%02d'),'  ONE FAMILY DWELLINGS')...
-    %             );
-    %         if any(ind2)
-    %             data{i}.BUILDINGCLASSCATEGORY(ind2)=strcat(num2str(j,'%02d'),'  ONE FAMILY HOMES');
-    %         end
-    %     end
 end
 toc
 save sales_data_temp
