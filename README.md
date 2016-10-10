@@ -8,8 +8,9 @@ Linear Regression Models
 
 3. Cleandata (around 25 mb) and data description are provided [here](https://drive.google.com/drive/folders/0B3jtvLVULJwuZW1FbUFmSWowbWs?usp=sharing)
 
-   Anyone with a valid columbia email is authorized to download.  
-   clean_sales_data.m is the script I wrote to clean the data.     
+   Anyone with a valid **columbia email** is authorized to download.  
+   clean_sales_data.m is the script I wrote to clean the data.  
+   It takes around 40 minutes to run the script on my laptop. 
    
 4. More analysis will be published here if time allows.
 
