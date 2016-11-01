@@ -1,5 +1,8 @@
 # STATGU4205
 Linear Regression Models
+## Study Notes
+1. [Why Poisson? Why Exponential?](https://github.com/LiutongZhou/STATGU4205/blob/master/poisson-exponential.pdf)
+2. [Why MLE?](https://github.com/LiutongZhou/STATGU4205/blob/master/probabilistic-model-setup.pdf)
 
 ## Extra 5%
 1. Data Source: [New York City Department of Finance Annualized Rolling Sales](https://www1.nyc.gov/site/finance/taxes/property-annualized-sales-update.page)
