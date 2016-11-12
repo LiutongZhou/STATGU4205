@@ -1,7 +1,7 @@
 # STATGU4205
 Linear Regression Models
 ## Study Notes
-1. [Why Poisson? Why Exponential?](https://github.com/LiutongZhou/STATGU4205/blob/master/poisson-exponential.pdf)
+1. [Why Poisson? Why Exponential?](https://liutongzhou.github.io/Interesting-Problems/A-Service-Queue-with-Impatient-Customers/Poisson_Process.pdf)
 2. [Why MLE?](https://github.com/LiutongZhou/STATGU4205/blob/master/probabilistic-model-setup.pdf)
 
 ## Extra 5%
