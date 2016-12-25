@@ -13,5 +13,5 @@ tb.price_per_sqft=tb.price./tb.sqft_living;
 %[accumsum,counts,lon,lat]=hist3d(tb.long,tb.lat,tb.price_per_sqft,80);
 %lon=lon(:);lat=lat(:);mean_price=accumsum./counts;mean_price=mean_price(:);
 %%
-tb=tb(:,{'long','lat','price_per_sqft');
+tb=tb(:,{'long','lat','price_per_sqft'});
 writetable(tb,'apt_price_geo.csv')
